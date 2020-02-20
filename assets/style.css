@@ -1,0 +1,115 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #353131;
+}
+
+p{
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 8px;
+	font-family: 'Tomorrow', sans-serif;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+img{
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 3px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#clock-container{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 10%;
+	background-color: #9D9898;
+}
+
+#parameters-container{
+	width: 100%;
+	height: 90px;
+	display: inline-flex;
+}
+
+#display-container{
+	width: 100%;
+	height: 180px;
+	background-color: #C3950E;
+}
+
+#separator{
+	height: 20px;
+	width: 100%;
+	background-color: #AE2424;
+}
+
+.parameter{
+	height: 100%;
+	width: 100%;
+	background-color: #7622AB;
+}
+
+.parameters-left{
+}
+
+.parameters-right{
+}
+
+
+.parameter-inner-container{
+	background-color: #EFBA3C;
+	display: inline-flex;
+	width: 100%;
+	height: 50%;
+}
+
+.parameter-label{
+
+}
+
+.parameter-controls{
+
+}
+
+.control-up{
+	float: left;
+}
+
+.control-number{
+	float: center;
+}
+
+.control-down{
+	float: right;
+}
+
+.control{
+	width: 33%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.display-row{
+	height: 50%;
+	width: 100%;
+	display: inline-flex;
+}
+
+.display-item{
+	width: 33%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.display-text{
+	font-size: 30px;
+	padding-top: 20px;
+}

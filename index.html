@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pomodoro timer</title>
+	<link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="assets/reset.css">
+	<link rel="stylesheet" href="assets/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<div id="clock-container">
+		<div id="parameters-container">
+
+			<div class="parameters-left parameter">
+				<div class="parameter-label parameter-inner-container">
+					<p>Session</p>
+				</div>
+				<div class="parameter-controls parameter-inner-container">
+					<div class="control-up control"><img src="assets/up-chevron.png" alt="Warning!"></div>
+					<div class="control-number control"><p>20</p></div>
+					<div class="control-down control"><img src="assets/down-chevron.png" alt="Warning!"></div>
+				</div>
+			</div>
+
+			<div class="parameters-right parameter">
+				<div class="parameter-inner-container parameter-label">
+					<p>Break</p>
+				</div>
+				<div class="parameter-inner-container parameter-controls">
+					<div class="control-up control"><img src="assets/up-chevron.png" alt="Warning!"></div>
+					<div class="control-number control"><p>05</p></div>
+					<div class="control-down control"><img src="assets/down-chevron.png" alt="Warning!"></div>
+				</div>
+			</div>
+		</div>
+		<div id="separator"></div>
+		
+		<div id="display-container">
+			<div class="display-top-row-container display-row">
+				<div class="display-item item-left">
+					
+				</div>
+				<div class="display-item item-center">
+					<p class="display-text">Session</p>
+				</div>
+				<div class="display-item item-right">
+					
+				</div>
+			</div>
+			<div class="display-bottom-row-container display-row">
+				<div class="display-item item-left">
+					
+				</div>
+				<div class="display-item item-center">
+					<p class="display-text">XX:XX</p>
+				</div>
+				<div class="display-item item-right">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
